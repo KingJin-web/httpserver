@@ -1,0 +1,77 @@
+#link {
+float: left;
+width: 160px;
+margin-left: 10px;
+clear: left;
+display: inline;
+}
+#login {
+background: url(../img/login_bg.jpg) no-repeat;
+padding-top:49px;
+}
+#f_login legend {
+display:none;
+}
+#f_login {
+font-size:12px;
+background: #EEE;
+padding-bottom: 10px;
+border-right: 1px solid #CCC;
+border-left: 1px solid #CCC;
+}
+#f_login_name,
+#f_login_pass {
+background: #EEE;
+width: 90px;
+border-bottom: 1px solid #666;
+margin:5px 0;
+}
+#login li {
+width:50%;
+display:inline;
+list-style:none;
+line-height:200%;
+}
+#sort {
+background:#EEE;
+border-left: 1px solid #CCC;
+border-right: 1px solid #CCC;
+text-align:left;
+white: 158px !important;
+white /**/: 160px;
+}
+#sort h1 {
+background-repeat:no-repeat;
+background-position:top center;
+text-indent:-9999px;
+height:29px;
+}
+#sort_h_1 {
+background-image:url(../img/sort_h_1.gif);
+}
+#sort_h_2 {
+background-image:url(../img/sort_h_2.gif);
+}
+#sort ul {
+padding-left: 25px;
+padding-bottom: 6px;
+border-top: 1px solid #CCC;
+list-style:none;
+}
+#sort li {
+width:97px;
+padding:6px 0 3px 0;
+border-bottom: 1px solid #CCC;
+}
+#ad_2 {
+background: #EEE;
+border-width:0 1px 1px 1px;
+border-style:solid;
+border-color:#CCC;
+width: 158px !important;
+width /**/: 160px;
+}
+#ad_2 li {
+list-style: none;
+padding-bottom: 2px;
+}

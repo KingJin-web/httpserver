@@ -1,0 +1,90 @@
+* {
+color: #666;
+margin: 0;
+padding: 0;
+border: 0;
+}
+a {
+text-decoration: none;
+}
+a:visited {
+color: #999;
+}
+a:hover {
+color: #C39;
+}
+body {
+font:12px "ËÎÌו", sans-serif;
+background: #FFE6F1 url(../img/body_bg.gif);
+text-align: center;
+}
+#box {
+background: #FFF url(../img/box_bg.gif) repeat-y center top;
+width: 782px;
+padding-top: 1px;
+margin:0 auto;
+}
+#logo {
+background: url(../img/logo_bg.gif) no-repeat;
+margin:0 auto 1px auto;
+border: 2px solid #F06;
+width: 766px !important;
+width /**/:770px;  /* For IE 5.x */
+}
+#nav {
+width:770px;
+margin:0 auto;
+}
+#nav li {
+    display:inline;
+	list-style-type: none;
+}
+#nav a {
+	font-size:14px;
+	font-weight: bold;
+	color:#666;
+	background:url(../img/nav_bg_left.gif) no-repeat;
+padding-left:4px;
+float: left;
+border-bottom:1px solid #666;
+}
+#nav a span {
+display:block;
+padding:13px 22px 9px 18px;
+background: url(../img/nav_bg_right.gif) no-repeat right top;
+}
+#nav .last {
+padding:13px 24px 9px 18px;
+border-right: 1px solid #666;
+}
+#nav a:hover {
+background-position: 0 -50px;
+}
+#nav a:hover span {
+color:#C39;
+background-position: 100% -50px;
+padding-top: 14px;
+padding-bottom:8px;
+}
+.btn {
+background-color: #FFF;
+border-style: solid;
+border-width: 2px 1px 1px 1px;
+border-color: #999;
+width: 50px !important;
+width /**/: 52px;
+}
+#footer {
+line-height:34px;
+color:#C06;
+background:url(../img/footer_bg.gif) repeat-x;
+margin:0 auto;
+clear:both;
+border-width:6px 1px 1px 1px;
+border-style:solid;
+border-color:#999;
+width: 768px !important;
+height:34px !important;
+width /**/: 770px;
+height /**/:41px;
+}

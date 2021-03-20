@@ -1,0 +1,40 @@
+﻿HTTP/1。1 200 OK
+xxx:yy
+xxx:yy
+
+<html><head>...
+
+
+html页面:
+
+HTTP/1.1 200
+Content-Type: text/html;charset=UTF-8
+Content-Length: 350
+Date: Sat, 20 Mar 2021 06:23:47 GMT
+Keep-Alive: timeout=20
+Connection: keep-alive
+
+图片:
+
+HTTP/1.1 200
+Accept-Ranges: bytes
+Last-Modified: Sat, 20 Mar 2021 06:24:41 GMT
+Content-Type: image/png
+Content-Length: 18058
+Keep-Alive: timeout=20
+Connection: keep-alive
+
+json: 
+
+HTTP/1.1 200
+Content-Type: application/json;charset=UTF-8
+Content-Length: 350
+Date: Sat, 20 Mar 2021 06:23:47 GMT
+Keep-Alive: timeout=20
+Connection: keep-alive
+
+
+
+
+
+

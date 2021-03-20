@@ -1,0 +1,158 @@
+#main {
+float: right;
+width: 612px;
+padding-top: 8px;
+}
+#ad_1 li {
+text-align: left;
+display:inline;
+margin-left:8px;
+list-style:none;
+}
+#recommend {
+padding:0 0 8px 7px;
+}
+#recommend h1 {
+background:url(../img/recommend_h1.gif) no-repeat;
+text-indent:-9999px;
+height:30px;
+margin-bottom:7px;
+}
+#recommend li {
+list-style:none;
+float:left;
+}
+#recommend dl {
+width:300px;
+}
+#recommend dt {
+width: 150px;
+float:left;
+}
+#recommend dd {
+line-height:160%;
+width:150px;
+float:left;
+}
+.title {
+font-weight: bold;
+color:#F06;
+}
+.recom_title {
+background:url(../img/b_01.gif) no-repeat left center;
+}
+.recom {
+text-align:left;
+text-indent:2em;
+}
+#new {
+width:453px;
+float:left;
+clear:left;
+}
+#new h1 {
+background:url(../img/new_h1.gif) no-repeat;
+text-indent:-9999px;
+height:30px;
+margin:0 0 5px 7px;;
+}
+#new li {
+line-height:160%;
+text-align:center;
+display:inline;
+float:left;
+margin-bottom:5px;
+list-style:none;
+}
+#new dl {
+width:151px;
+}
+.new_btn {
+padding-left:10px;
+}
+#rank {
+display:inline;
+width:150px;
+margin-right: 9px;
+float:right;
+clear:right;
+}
+#rank h1 {
+background:url(../img/rank_h1.gif) no-repeat;
+text-indent:-9999px;
+height:30px;
+}
+#rank ol {
+border-width:1px 1px 0 1px;
+border-style:solid;
+border-color:#C9C;
+padding-bottom:5px;
+}
+#rank li {
+text-align:left;
+margin:5px 5px 0 16px;
+list-style-position:inside;
+}
+#rank a:hover {
+text-decoration:underline;
+}
+.rank_more {
+text-align:right;
+padding-right:7px;
+border-left:solid 1px #C9C;
+border-right:solid 1px #C9C;
+width:141px !important;
+width /**/: 150px;
+}
+#info {
+display:inline;
+border-width:0 1px 1px 1px;
+border-style:solid;
+border-color:#C9C;
+margin-right:9px;
+float:right;
+clear:right;
+width:148px !important;
+width /**/:150px;
+}
+#info h1 {
+background:url(../img/info_h1.gif) no-repeat;
+height:30px;
+text-indent:-9999px;
+}
+#info ul {
+border-top:1px solid #C9C;
+padding: 5px 0;
+text-align:left;
+list-style:none;
+}
+#info li {
+padding-top:5px;
+}
+#info li a {
+padding-left:23px;
+}
+#info li a:hover {
+background: url(../img/b_02.gif) no-repeat 7px 0;
+}
+.info_more {
+text-align:right;
+padding-right: 7px;
+}
+.memo{
+}
+.price {
+}
+.net_price {
+color:#F06;
+}
+.buy, .favorite {
+margin:4px;
+}
+.buy {
+border-color:#F06;
+margin-left:8px;
+}
+.buy a {
+color: #F06;
+}
